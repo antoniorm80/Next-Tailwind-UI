@@ -58,13 +58,12 @@
     1.43.- Feature Sections          --> Done
     1.44.- Pricing Sections          --> Done
 
-
 ***** Consumir API's *****
-3 Formasde obtener datos de un API: 
-  1.- getStaticProps.- Obtener los datos cuando se crea el build
-  2.- getStaticPaths- Obtener el listado de páginas que se van a crear cuando se realiza el bild
-  3.- getServerSideProps.- Los dataos se obtienen en cada request
+    3 Formasde obtener datos de un API: 
+        1.- getStaticProps.- Obtener los datos cuando se crea el build
+        2.- getStaticPaths- Obtener el listado de páginas que se van a crear cuando se realiza el bild
+        3.- getServerSideProps.- Los dataos se obtienen en cada request
 
-  ¿Cuando utilizar ?
-   a.- StaticProps.- Cuando la información no cambia en cada request una página informativa, documentación, trámites , anuncios
-   b.- ServerSideProps.-  Cuando la inforamción cambia de forma continúa en cada request o donde la pagina se actualiza cada poco tiempo. 
+        ¿Cuando utilizar ?
+        a.- StaticProps.- Cuando la información no cambia en cada request una página informativa, documentación, trámites , anuncios
+        b.- ServerSideProps.-  Cuando la inforamción cambia de forma continúa en cada request o donde la pagina se actualiza cada poco tiempo. 

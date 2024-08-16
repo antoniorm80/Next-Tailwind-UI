@@ -31,31 +31,30 @@ import CategoryFilterPage from "./Components/CategoryFilters";
 import HeaderSectionPage from "./Components/HeaderSection";
 import BlogSectionsPage from "./Components/BlogSections";
 
-
 export default function Home() {
+
   return (   
     <> 
-    
     {/* <HeadersPage/>*/}
     <HeroPage/>
     
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white">
     <DropdownPage/>
-       {/*<FormLayoutPage/>
+      <FormLayoutPage/>
       <SelectMenuPage/>
-      <ModalDialogsPage/> 
+      {/* <ModalDialogsPage/>  */}
       <InputGroupPage/>
-     <ProductListPage/>*/}
+     <ProductListPage/>
      <TeamSectionsPage/>
     </main>  
-    {/*<CategoryPreviewPage/>
+    <CategoryPreviewPage/>
     <PromoSectionsPage/>
     <ProductViewPage/>
     <ProductFeaturePage/>
     <StoreNavigationPage/>
-     <ShoppingCartsPage/> 
+    {/* <ShoppingCartsPage/>  */}
     <ProductOverviewsPage/>
-    <CategoryFilterPage/>*/}
+    <CategoryFilterPage/>
     <HeaderSectionPage/>
     <BlogSectionsPage/>
 

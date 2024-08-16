@@ -1,8 +1,9 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, ChevronLeftIcon, XMarkIcon } from '@heroicons/react/24/outline'
+
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -11,8 +12,43 @@ const navigation = [
   { name: 'Company', href: '#' },
 ]
 
-export default function HeroPage() {
+// export async function getServerSideProps() {
+//   const url = "http://www.webapi-northwind.somee.com/api/Categories";
+//   const respuesta = await fetch(url);
+//   const entradas = await respuesta.json();
+//   return {
+//     props: {
+//       entradas
+//     }
+//   }
+// }
+
+// export async function getStaticProps() {
+//   const url = "http://www.webapi-northwind.somee.com/api/Categories";
+//   const respuesta = await fetch(url);
+//   const entradas = await respuesta.json();
+//   return {
+//     props: {
+//       entradas
+//     }
+//   }
+// }
+
+export default function HeroPage()  {
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  useEffect(() => {
+  
+    const consultarAPI = async () => {
+      const url = "http://www.webapi-northwind.somee.com/api/Categories";
+      const respuesta = await fetch(url);
+      const resultado = await respuesta.json()
+    
+      console.log(resultado);
+    }
+    consultarAPI();
+  },[])
 
   return (
     <div className="bg-white">
@@ -158,3 +194,5 @@ export default function HeroPage() {
     </div>
   )
 }
+
+
