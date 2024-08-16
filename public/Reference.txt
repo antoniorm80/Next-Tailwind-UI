@@ -11,7 +11,7 @@
         https://github.com/antoniorm80/Next-Tailwind-UI.git
 
 ***** Componentes - Taildwind UI *****
-1.- Generar los componentes de ejemplo gratis 
+    1.- Generar los componentes de ejemplo Gratis 
      https://tailwindui.com/components/preview  
     1.1.- Sign-in and Registration   --> Done
     1.2.- Badges                     --> Done
@@ -20,40 +20,40 @@
     1.5.- Stacked Lists              --> Done
     1.6.- Pagination                 --> Done
     1.7.- Form Layouts               --> Done
-    1.8.- Navbars
+    1.8.- Navbars                    --> Done
     1.9.- Dropdowns                  --> Done
-    1.10.- Stacked Layouts
-    1.11.- Drawers
-    1.12.- Page Headings
-    1.13.- Select Menus
-    1.14.- Modal Dialogs
-    1.15.- Avatars
-    1.16.- Input Groups
-    1.17.- Product Lists
-    1.18.- Category Previews
-    1.19.- Product Quickviews
-    1.20.- Product Features
-    1.21.- Store Navigation
-    1.22.- Shopping Carts
-    1.23.- Product Overviews
-    1.24.- Category Filters
-    1.25.- Product Lists
-    1.26.- Promo Sections
-    1.27.- Header Sections
-    1.28.- Blog Sections
-    1.29.- Team Sections
-    1.30.- Testimonials
-    1.31.- Feature Sections
-    1.32.- Stats
-    1.33.- CTA Sections
+    1.10.- Stacked Layouts           --> Done
+    1.11.- Drawers                   --> Done
+    1.12.- Page Headings             --> Done
+    1.13.- Select Menus              --> Done
+    1.14.- Modal Dialogs             --> Done
+    1.15.- Avatars                   --> Done
+    1.16.- Input Groups              --> Done
+    1.17.- Product Lists             --> Done
+    1.18.- Category Previews         --> Done
+    1.19.- Product Quickviews        --> Done
+    1.20.- Product Features          --> Done
+    1.21.- Store Navigation          --> Done
+    1.22.- Shopping Carts            --> Done
+    1.23.- Product Overviews         --> Done
+    1.24.- Category Filters          --> Done
+    1.25.- Product Lists             --> Done * hacer double check
+    1.26.- Promo Sections            --> Done
+    1.27.- Header Sections           --> Done
+    1.28.- Blog Sections             --> Done
+    1.29.- Team Sections             --> Done
+    1.30.- Testimonials              --> Done
+    1.31.- Feature Sections          --> Done
+    1.32.- Stats                     --> Done
+    1.33.- CTA Sections              --> Done
     1.34.- Content Sections          --> Done
-    1.35.- Newsletter Sections
+    1.35.- Newsletter Sections       --> Done
     1.36.- Hero Sections             --> Done
-    1.37.- Contact Sections
-    1.38.- Logo Clouds
+    1.37.- Contact Sections          --> Done
+    1.38.- Logo Clouds               --> Done
     1.39.- 404 Pages                 --> Done
-    1.40.- Headers
-    1.41.- Flyout Menus
-    1.42.- Banners
-    1.43.- Feature Sections
-    1.44.- Pricing Sections
+    1.40.- Headers                   --> Done
+    1.41.- Flyout Menus              --> Done
+    1.42.- Banners                   --> Done
+    1.43.- Feature Sections          --> Done
+    1.44.- Pricing Sections          --> Done
